@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Kantumruy+Pro:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-display: 'Manrope', system-ui, -apple-system, sans-serif;
+  --font-body:    'Manrope', system-ui, -apple-system, sans-serif;
+  --font-khmer:   'Kantumruy Pro', system-ui, sans-serif;
+  --font-mono:    ui-monospace, 'SF Mono', 'Cascadia Code', monospace;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+/* Khmer language support */
+:lang(km) {
+  font-family: var(--font-khmer);
+}
+
+.font-khmer {
+  font-family: var(--font-khmer);
+}
